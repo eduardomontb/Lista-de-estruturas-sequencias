@@ -1,9 +1,12 @@
+//Fa√ßa um algoritmo que receba o peso de uma pessoa, um valor inteiro, calcule e imprima:
+//‚Ä¢ o peso dessa pessoa em gramas;
+//‚Ä¢ se essa pessoa engordar 5%, qual ser√° seu novo peso em gramas.
 #include <stdio.h>
 #include <math.h>
 
 int main(){
 	
-	//DeclaraÁ„o de vari·veis
+	//Declara√ß√£o de vari√°veis
 	int peso_kg;
 	double peso_gramas, peso_gramas5;
 	
@@ -11,14 +14,14 @@ int main(){
 	printf("Digite seu peso,em kg:\n ");
 	scanf("%d", &peso_kg);
 	
-	//processamneto do c·lculos
+	//processamneto do c√°lculos
 	//Converte o peso em kg para gramas	
 	peso_gramas = peso_kg * 1000;
 	
 	//Calcula o peso em gramas considerando engordar 5%
 	peso_gramas5 = peso_gramas + (peso_gramas * 5) / 100;
 	
-	//Mostra o resultado dos calculos no monitor / saÌda de dados 
+	//Mostra o resultado dos calculos no monitor / sa√≠da de dados 
 	printf("Seu peso em gramas e :\n %.2lf\n\n\n", peso_gramas);
 	printf("seu peso , em gramas, se engoradar 5%:\n %.2lf " , peso_gramas5);
 	
