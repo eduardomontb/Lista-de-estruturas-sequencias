@@ -1,9 +1,11 @@
+//Faça um programa que receba a quantidade e o valor de três produtos, no seguinte formato: quantidade1 valor1 quantidade2 valor2 quantidade3 valor3. O programa deve calcular esses valores
+//seguindo a fórmula total = quantidade1* valor1 + quantidade2 * valor2 + quantidade3 * valor3. O valor total deve ser apresentado no final da execução do programa.
 #include <stdio.h>
 
 int main (){
 	
 	
-	//Declara��o de vari�veis
+	//Declaração de variáveis
 	double quantidade1, valor1, quantidade2, valor2, quantidade3, valor3, resultado;
 	
 	//Entrada de dados
@@ -29,11 +31,11 @@ int main (){
 	scanf("%lf", &valor3);
 	
 	
-	//Processamento de c�lculos
+	//Processamento de cálculos
 	//calcula o valor total da compra
 	resultado = (quantidade1 * valor1) + (quantidade2 * valor2) + (quantidade3 * valor3);
 	
-	//Mostra o resultado dos calculos no monitor / sa�da de dados 
+	//Mostra o resultado dos calculos no monitor / saída de dados 
 	printf("O valor total de sua compra foi:\n %.2lf", resultado);
 	
 	return 0;
