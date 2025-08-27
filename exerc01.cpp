@@ -2,7 +2,7 @@
 
 int main(){
 	
-	//Declaração de variáveis
+	//DeclaraÃ§Ã£o de variÃ¡veis
 	int numero1;
 	int numero2;
 	int soma = 0;
@@ -14,10 +14,10 @@ int main(){
 	printf("entre com o segundo numero\n");
 	scanf("%d", &numero2);
 	
-	//Realiza a soma dos dois números inteiros
+	//Realiza a soma dos dois nÃºmeros inteiros
 	soma = numero1 + numero2;
 	
-	///Mostra o resultado da soma no monitor / saída de dados
+	///Mostra o resultado da soma no monitor / saÃ­da de dados
 	printf("resultado: %d", soma);
 	
 	return 0;
