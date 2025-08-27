@@ -1,19 +1,20 @@
+//Ler uma temperatura em graus Celsius e apresent√°-la convertida em graus Fahrenheit. A f√≥rmula de convers√£o √©: F=(9*C+160) / 5, sendo F a temperatura em Fahrenheit e C a temperatura em Celsius.
 #include <stdio.h>
 
 int main(){
 	
-	//DeclaraÁ„o de vari·veis
+	//Declara√ß√£o de vari√°veis
 	float C, F;
 	
 	//Entrada de dados
 	printf("Digite o valor da temperatura em  graus Celsius:\n");
 	scanf("%f", &C);
 	
-	//Processamento de c·lculos
-	//Calcula a convers„o de Celsius para Fahrenheit
+	//Processamento de c√°lculos
+	//Calcula a convers√£o de Celsius para Fahrenheit
 	F = (9 * C + 160) / 5;
 	
-	//saÌda de dados
+	//sa√≠da de dados
 	printf("Conversao em graus Fahrenheit: %.2f", F);
 	
 	return 0;
