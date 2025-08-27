@@ -1,8 +1,9 @@
+//FaÃ§a um algoritmo que receba trÃªs notas de um aluno, calcule e imprima a mÃ©dia aritmÃ©tica entre essas notas.
 #include <stdio.h>
 
 int main(){
 	
-	//Declaração de variáveis
+	//DeclaraÃ§Ã£o de variÃ¡veis
 	int nota1, nota2, nota3, soma, media;
 	
 	//Entrada de dados
@@ -15,13 +16,13 @@ int main(){
 	printf("digite a nota da terceira prova\n");
 	scanf("%d", &nota3);
 	
-	//Realiza a soma entre três números inteiros
+	//Realiza a soma entre trÃªs nÃºmeros inteiros
 	soma = nota1 + nota2 + nota3;
 	
-	//Realiza o calculo da média dos três números inteiros
+	//Realiza o calculo da mÃ©dia dos trÃªs nÃºmeros inteiros
 	media= ("%d", soma) /3;
 
-    //MOstra o resultado da a média aritmética entre essas notas no monitor / saída de dados
+    //MOstra o resultado da a mÃ©dia aritmÃ©tica entre essas notas no monitor / saÃ­da de dados
 	printf("resultado: %d", media);
 	
 	return 0;
