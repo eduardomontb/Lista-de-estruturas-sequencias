@@ -1,3 +1,4 @@
+//Faça um algoritmo que receba o peso e a altura de uma pessoa e calcule o índice de massa corpórea. Ele mede a relação entre peso e altura (peso em Kg, dividido pelo quadrado da altura em metros).
 #include <stdio.h>
 #include <math.h>
 
@@ -13,7 +14,7 @@ int main(){
 	
 	imc = peso / (altura * altura);
 	
-	printf("\n\nSeu �ndice de massa corp�rea e:\n %.2f", imc);
+	printf("\n\nSeu índice de massa corpórea e:\n %.2f", imc);
 	
 	return 0;
 }
