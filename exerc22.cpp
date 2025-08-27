@@ -1,9 +1,10 @@
+//Entrar via teclado com o valor de cinco produtos. Após as entradas, digitar um valor referente ao pagamento da somatória destes valores. Calcular e exibir o troco que deverá ser devolvido.
 #include<stdio.h>
 #include<math.h>
 
 int main(){
 	
-	//Declara��o de vari�veis
+	//Declaração de variáveis
 	float Vproduto1, Vproduto2, Vproduto3, Vproduto4, Vproduto5, somatorio, valorPago, troco;
 	
 	//Entrada de dados
@@ -25,14 +26,14 @@ int main(){
 	printf("Valor do pagamento:\n");
 	scanf("%f", &valorPago);
 	
-	//Processamento de c�lculos
+	//Processamento de cálculos
     //Soma de todos os produtos comprados
 	somatorio = Vproduto1 + Vproduto2 + Vproduto3 + Vproduto4 + Vproduto5;
 	
 	//calcula o troco 
 	troco = valorPago - somatorio;
 	
-	//sa�da de dados
+	//saída de dados
 	printf("\n\n\nValor total da compra:\n %.2lf\n\n", somatorio);
 	printf("Pagamento: \n %.2f\n\n", valorPago);
 	printf("Troco que devera ser devolvido:\n %.2f", troco);
