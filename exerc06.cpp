@@ -1,15 +1,16 @@
+//Fa√ßa um algoritmo que receba um n√∫mero inteiro, calcule e imprima a tabuada de multiplica√ß√£o desse n√∫mero.
 #include <stdio.h>
 
 int main(){
 	
-	//DeclaraÁ„o de vari·veis
+	//Declara√ß√£o de vari√°veis
 	int numero1, mult1, mult2, mult3, mult4, mult5, mult6, mult7, mult8, mult9, mult10;
 	
 	//Entrada de dados
 	printf("entre com um numero para saber sua tabuada de multiplicacao:\n");
 	scanf("%d", &numero1);
 	
-	// Realiza o c·lculo das multiplicaÁıes
+	// Realiza o c√°lculo das multiplica√ß√µes
 	mult1 = numero1 * 1;
 	mult2 = numero1 * 2;
 	mult3 = numero1 * 3;
@@ -21,7 +22,7 @@ int main(){
 	mult9 = numero1 * 9;
 	mult10 = numero1 * 10;
 	
-	//Mostra a tabuada na tela do numero escolhido no monitor / saÌda de dados
+	//Mostra a tabuada na tela do numero escolhido no monitor / sa√≠da de dados
 	printf("resultado:\n %d * 1 = %d", numero1, mult1);
 	printf("\n %d * 2 = %d", numero1, mult2);
 	printf("\n %d * 3 = %d", numero1, mult3);
