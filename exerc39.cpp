@@ -1,3 +1,6 @@
+//percorrida (distância = tempo * velocidade). 38) Considerando uma eleição de apenas 2 candidatos, elabore um algoritmo que leia do teclado o número total de eleitores, 
+//o número de votos do primeiro candidato e o número de votos do segundo candidato. Em seguida, o algoritmo deverá apresentar o percentual de votos de cada um dos candidatos
+//e o percentual de votos nulos.
 #include <stdio.h>
 
 int main (){
