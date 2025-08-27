@@ -1,9 +1,11 @@
+//Uma pessoa resolveu fazer uma aplicação em uma poupança programada. Para calcular seu rendimento, ela deverá fornecer o valor constante da aplicação mensal, a taxa e o número de meses.
+//Sabendo-se que a fórmula usada para este cálculo é: Valor acumulado = (P*(1 +i)n – 1)/i em que i = taxa, P = aplicação mensal e n = número de meses.
 #include <stdio.h>
 #include <math.h>
 
 int main (){
 	
-	//Declara��o de vari�veis
+	//Declaração de variáveis
 	double i, p, resultado;
 	int n;
      
@@ -21,11 +23,11 @@ int main (){
 	scanf("%d", &n);
 	
 	
-    // Processamento do c�lculo
-    //calcula o valor do rendimento da aplica��o mensal
+    // Processamento do cálculo
+    //calcula o valor do rendimento da aplicação mensal
     resultado = (p * (pow(1 + i, n) - 1 )) / i;
 	
-	//sa�da de dados
+	//saída de dados
 	printf("Valor acumulado:\n %.2lf", resultado);
 	
 	return 0;	
