@@ -1,8 +1,9 @@
+//Fa√ßa um algoritmo que receba dois n√∫meros reais, calcule e imprima a subtra√ß√£o do primeiro n√∫mero pelo segundo.
 #include <stdio.h>
 
 int main(){
 
-    //DeclaraÁ„o de vari·veis
+    //Declara√ß√£o de vari√°veis
 	float Nreal1, Nreal2, subtracao = 0;
 	
 	//Entrada de dados
@@ -12,10 +13,10 @@ int main(){
 	printf("entre com o segundo numero\n");
 	scanf("%f", &Nreal2);
 	 
-	//Realiza a subtraÁ„o de dois numeros reais
+	//Realiza a subtra√ß√£o de dois numeros reais
 	subtracao = Nreal1 - Nreal2;
 	
-	//Mostra o resultado da subtraÁ„o no monitor / saÌda de dados
+	//Mostra o resultado da subtra√ß√£o no monitor / sa√≠da de dados
 	printf("Resultado: %f", subtracao);
 
     return 0;
