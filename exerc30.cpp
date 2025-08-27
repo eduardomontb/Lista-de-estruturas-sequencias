@@ -1,8 +1,9 @@
+//Faça um algoritmo que receba o preço de custo de um produto e mostre o valor de venda. Sabe-se que o preço de custo receberá um acréscimo de acordo com um percentual informado pelo usuário.
 #include <stdio.h>
 
 int main (){
 	
-	//Declara��o de vari�veis
+	//Declaração de variáveis
 	float preco_custo, valor_venda, percentual;
 	
 	//Entrada de dados
@@ -12,11 +13,11 @@ int main (){
 	printf("Digite o percentual a se acrescito:\n");
 	scanf("%f", &percentual);
 	
-	//Processamento de c�lculos
-	//Calcula o valor de venda do produto com acr�scimo do percentual
+	//Processamento de cálculos
+	//Calcula o valor de venda do produto com acréscimo do percentual
 	valor_venda = preco_custo +  (preco_custo  * percentual/ 100 );
 	
-	//sa�da de dados
+	//saída de dados
 	printf("\n\nO valor de venda do produto e:\n  R$ %.2f", valor_venda);
 	
 	return 0;
