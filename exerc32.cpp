@@ -1,3 +1,4 @@
+//Faça um algoritmo que apresente, para um salário informado pelo usuário, um novo salário com aumento de 37%.
 #include <stdio.h>
 
 int main(){
