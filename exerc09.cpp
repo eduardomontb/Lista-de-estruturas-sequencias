@@ -1,9 +1,10 @@
+//Faça um algoritmo que receba o valor do salário de um funcionário e o valor do salário mínimo. Calcule e imprima quantos salários mínimos ganha esse funcionário.
 #include<stdio.h>
 #include<math.h>
 
 int main(){
 	
-	//Declara��o de vari�veis
+	//Declaração de variáveis
 	float salario, salmin, quatnmin;
 	
 	//Entrada de dados
@@ -13,10 +14,10 @@ int main(){
 	printf("digite o salrio minimo atual:\n");
 	scanf("%f", &salmin);
 	
-	//Realiza o c�lculo de quantos sal�rios m�nimos a pessoa ganha
+	//Realiza o cálculo de quantos salários mínimos a pessoa ganha
 	quatnmin = salario / salmin;
 	
-	//Mostra o resultado do c�lculo no monitor / sa�da de dados 
+	//Mostra o resultado do cálculo no monitor / saída de dados 
 	printf("Voce recebe %.2f salarios minimos.\n",  quatnmin);
 	
 	return 0;
