@@ -1,3 +1,9 @@
+//Um hotel deseja fazer uma promoção especial de final de semana, concedendo um desconto de 25% na diária. Sendo informados, através do teclado, o número de apartamentos do hotel e o valor da
+//diária por apartamento para o final de semana completo, elabore um programa para calcular:
+//• Valor promocional da diária;
+//• Valor total a ser arrecadado caso a ocupação neste final de semana atinja 100%;
+//• Valor total a ser arrecadado caso a ocupação neste final de semana atinja 70%;
+//• Valor que o hotel deixará de arrecadar em virtude da promoção, caso a ocupação atinja 100%.
 #include <stdio.h>
 
 int main(){
@@ -8,7 +14,7 @@ int main(){
 	printf("Digite o numero de apartamendos do hotel:\n");
 	scanf("%d", &numero_apartamentos);
 	
-	printf("Digite o valor da o valor da di�ria por apartamento para o final de semana completo:\n");
+	printf("Digite o valor da o valor da diária por apartamento para o final de semana completo:\n");
 	scanf("%f", &valor_diaria);
 	
 	valor_promocional = valor_diaria * (0.75);
