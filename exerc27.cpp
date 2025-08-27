@@ -1,9 +1,11 @@
+//Um sistema de equações lineares da forma ax + by = c, pode ser resolvido utilizando-se as seguintes fórmulas:
+//Faça um algoritmo para ler os coeficientes (a,b,c,d,e,f) das equações e calcular e exibir os valores de x e y.
 #include <stdio.h>
 #include <math.h>
 
 int main(){
 	
-	//Declara��o de vari�veis
+	//Declaração de variáveis
 	float a, b, c, d, e, f, x, y;
 	
 	//Entrada de dados
@@ -25,14 +27,14 @@ int main(){
 	printf("Digite o valor de f:\n");
 	scanf("%f", &f);
 	
-	//Processamento de c�lculos
+	//Processamento de cálculos
 	//calcula o valor de y
 	y = (a * f -  c * d) / (a * e - b * d);
 	
 	//calcula o valor de x
 	x = (c * e - b * f) / (a * e - b * d);
 	
-	//sa�da de dados
+	//saída de dados
 	printf("\n\n\nO valor de x:\n %.2f\n\n", x);
 	
 	printf("O valor de y:\n %.2f", y);
