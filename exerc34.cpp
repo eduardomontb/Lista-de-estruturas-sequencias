@@ -5,17 +5,22 @@
 
 int main (){
 	
+	//Declaração de variáveis
 	float altura_degrau, altura_objetivo;
 	int faltam_subir;
 	
+	//Entrada de dados
     printf("Digite a altura que cada degrau possui:\n");
 	scanf("%f", &altura_degrau);
 	
 	printf("Digite a altura que pessoa deseja alcancar:\n");
 	scanf("%f", &altura_objetivo);
 	
+	//Processamento de cálculo
+	//Calcula o número de degraus necessários para alcançar o objetivo
 	faltam_subir = ceil(altura_objetivo / altura_degrau);
 	
+	//Saída de dados
 	printf("A pessoa precisa subir %d degraus para chegar em seu objetivo.", faltam_subir);
 	
 	return 0;
