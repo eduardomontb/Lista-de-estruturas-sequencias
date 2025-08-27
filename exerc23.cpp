@@ -1,9 +1,10 @@
+//Escreva um algoritmo para trocar os valores de tr√™s vari√°veis A, B e C de modo que A fique com o valor de B, B fique com o valor de C e C fique com o valor de A.
 #include<stdio.h>
 #include<math.h>
 
 int main(){
 	
-	//DeclaraÁ„o de vari·veis
+	//Declara√ß√£o de vari√°veis
 	int A, B, C, realA;
 	
 	//Entrada de dados
@@ -16,8 +17,8 @@ int main(){
 	printf("Digite o valor de C:\n");
 	scanf("%d", &C);
 	
-	//Processamento de c·lculos
-    //guarda o valor original de A (para n„o perder ele)
+	//Processamento de c√°lculos
+    //guarda o valor original de A (para n√£o perder ele)
 	realA = A;
 	//Agora A passa a ser o valor de B
 	A = B;
@@ -26,7 +27,7 @@ int main(){
 	// E C recebe o valor original de A
 	C = realA;
 	
-	//saÌda de dados
+	//sa√≠da de dados
 	printf("\nNovos valores:\n");
     printf("A = %d\n", A);
     printf("B = %d\n", B);
