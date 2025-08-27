@@ -5,16 +5,22 @@
 
 int main(){
 	
+	//Declaração de variáveis
 	float custo_fabrica;
 	float porcentagem_distribuidor, porcentagem_imposto;
 	
+	//Entrada de dados
 	printf("Digite o custo da fabrica:\n");
 	scanf("%f", &custo_fabrica);
 	
+	//Processamento de cálculos
+	//Calcula o custo com o imposto de 45%
 	porcentagem_imposto = custo_fabrica + (custo_fabrica * 45 / 100);
 	
+	//Calcula o valor final com acréscimo do distribuidor de 28%
 	porcentagem_distribuidor = porcentagem_imposto + (porcentagem_imposto * 28 / 100);
 	
+	//Saída de dados
 	printf("\n\nO valor do consumidor e:\n %.2f", porcentagem_distribuidor);
 	
 	return 0;
