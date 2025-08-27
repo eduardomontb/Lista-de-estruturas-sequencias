@@ -1,9 +1,10 @@
+//Crie um programa que receba valores quaisquer e mostre a m√©dia entre eles, o somat√≥rio entre eles e o resto da divis√£o do somat√≥rio por cada um dos valores.
 #include <stdio.h>
 #include <math.h>
 
 int main (){
 	
-	//DeclaraÁ„o de vari·veis
+	//Declara√ß√£o de vari√°veis
 	double numero1, numero2, numero3, soma, media;
 	
 	//Entrada de dados
@@ -16,12 +17,12 @@ int main (){
 	printf("Digite o valor do terceiro numero :\n");
 	scanf("%lf", &numero3);
 	
-	//Processamento de c·lculos
+	//Processamento de c√°lculos
 	//
 	soma = numero1 + numero2 + numero3;
 	media = soma / 3;
 	
-	//SaÌda de dados
+	//Sa√≠da de dados
 	printf("soma:\n %.2lf\n\n", soma);
 	printf("media:\n %.2lf\n\n", media);
 	
