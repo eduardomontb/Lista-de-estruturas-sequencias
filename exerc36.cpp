@@ -8,23 +8,31 @@
 
 int main(){
 	
+	//Declaração de variáveis
 	int numero_apartamentos;
 	float  valor_diaria, valor_promocional, total100, total70, perda;
 	
+	//Entrada de dados
 	printf("Digite o numero de apartamendos do hotel:\n");
 	scanf("%d", &numero_apartamentos);
 	
 	printf("Digite o valor da o valor da diária por apartamento para o final de semana completo:\n");
 	scanf("%f", &valor_diaria);
 	
+	//Processamento de cálculos
+	//Calcula o valor promocional da diária 
 	valor_promocional = valor_diaria * (0.75);
 	
+	//Calcula o valor total com 100% de ocupação usando o valor promocional
 	total100 = valor_promocional * numero_apartamentos;
 	
+	//Calcula o valor total com 70% de ocupação usando o valor total com 100% de ocupaçã
 	total70 =  total100 * (0.7);
 	
+	//Calcula a perda do hotel em relação ao valor total sem promoção
 	perda = (numero_apartamentos * valor_diaria) - total100;
 	
+	//Saída de dados
 	printf("\n\nValor promocional da diaria: R$ %.2f\n", valor_promocional);
     printf("Valor total com 100%% de ocupacao: R$ %.2f\n", total100);
     printf("Valor total com 70%% de ocupacao: R$ %.2f\n", total70);
