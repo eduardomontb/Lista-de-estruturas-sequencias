@@ -1,8 +1,9 @@
+//Fa√ßa um algoritmo que receba dois n√∫meros inteiros, calcule e imprima a divis√£o do primeiro n√∫mero pelo segundo.
 #include <stdio.h>
 
 int main(){
 
-    //DeclaraÁ„o de vari·veis
+    //Declara√ß√£o de vari√°veis
     int inteiro1, inteiro2, resultado;
 	
 	//Entrada de dados
@@ -12,10 +13,10 @@ int main(){
 	printf("Digite o segundo numero inteiro:\n");
 	scanf("%d", &inteiro2);
 	
-	//Realiza a divis„o entre dois numeros inteiros
+	//Realiza a divis√£o entre dois numeros inteiros
 	resultado = inteiro1 / inteiro2;
 	
-	//Mostra o resultado da divis„o no monitor / saÌda de dados
+	//Mostra o resultado da divis√£o no monitor / sa√≠da de dados
 	printf("O resultado da divisao do primeiro numero inteiro pelo segundo e:\n %d", resultado);
 	
 	return 0;
