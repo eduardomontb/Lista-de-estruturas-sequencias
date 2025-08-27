@@ -4,16 +4,21 @@
 
 int main(){
 	
+	//Declaração de variáveis
 	float peso, altura, imc;
 	
+	//Entrada de dados
 	printf("informe seu peso (em kg):\n");
 	scanf("%f", &peso);
 	
 	printf("informe sua altura (em metros):\n");
 	scanf("%f", &altura);
 	
+	//Processamento de cálculo
+	//calcula o índice de massa corpórea
 	imc = peso / (altura * altura);
 	
+	//Saída de dados
 	printf("\n\nSeu índice de massa corpórea e:\n %.2f", imc);
 	
 	return 0;
