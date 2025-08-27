@@ -1,9 +1,10 @@
+//Fa√ßa um algoritmo que receba dois n√∫meros, calcule e imprima um elevado ao outro.
 #include <stdio.h>
 #include <math.h>
 
 int main(){
 	
-	//DeclaraÁ„o de vari·veis
+	//Declara√ß√£o de vari√°veis
 	float base, expoente, resultado;
 	
 	//Entrada de dados
@@ -13,10 +14,10 @@ int main(){
 	printf("digite o expoente:\n");
 	scanf("%f", &expoente);
 	
-	//Realiza a potenciaÁ„o da base pelo expoente
+	//Realiza a potencia√ß√£o da base pelo expoente
 	resultado = pow(base, expoente);
 	
-	//Mostra o resultado da potenciaÁ„o no monitor / saÌda de dados 
+	//Mostra o resultado da potencia√ß√£o no monitor / sa√≠da de dados 
 	printf("%f elevado a %f = %f", base, expoente, resultado);
 	
 	return 0;
