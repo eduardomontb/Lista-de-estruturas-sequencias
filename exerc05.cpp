@@ -1,8 +1,9 @@
+//Fa√ßa um algoritmo que receba duas notas de um aluno e seus respectivos pesos, calcule e imprima a m√©dia ponderada dessas notas.
 #include <stdio.h>
 
 int main(){
 	
-	//DeclaraÁ„o de vari·veis
+	//Declara√ß√£o de vari√°veis
 	float nota1, nota2, peso1, peso2, sm, dp;
 	
 	//Entrada de dados
@@ -18,13 +19,13 @@ int main(){
 	printf("digite o peso da segunda nota:\n");
 	scanf("%f", &peso2);
 	
-	//Realiza o c·lculo da soma ponderada
+	//Realiza o c√°lculo da soma ponderada
 	sm = (nota1 * peso1) + (nota2 * peso2);
 	
-	//Realiza o c·lculo da mÈdia ponderada
+	//Realiza o c√°lculo da m√©dia ponderada
 	dp = ("%f", sm) / (peso1 + peso2);
 
-    //Mostra o resultado da mÈdia ponderada entre as notas no monitor / saÌda de dados
+    //Mostra o resultado da m√©dia ponderada entre as notas no monitor / sa√≠da de dados
     printf("a media ponderada e:\n %2f", dp);
     
     return 0;
